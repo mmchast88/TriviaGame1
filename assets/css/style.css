@@ -1,0 +1,43 @@
+body {
+	background-image: url(../images/Spongebob_Squarepants.jpg);
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Anton', sans-serif;
+	color: #33e2f1;
+	border: solid;
+	border-bottom-width: 15px;
+	width: 550px;
+	position: relative;
+	left: 22%;
+	background-image:url(../images/sponge.png);
+
+
+}
+
+button {
+	position: absolute;
+	right: 45%;
+	bottom: -45px;
+	font-size: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font: times;
+	background-color: pink;
+}
+
+
+
+#subbody {
+	background-color: white;
+	width: 735px;
+	position: absolute;
+	left: 15%;
+	padding-left: 15px;
+	text-align: center;
+
+
+}
