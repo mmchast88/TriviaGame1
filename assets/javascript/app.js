@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+    
 $('#start').on('click', function() {
 	$('#start').remove();
 	startGame();
@@ -93,7 +95,4 @@ function done () {
 	$('#subbody').append("<label> Unanswered: " +triviaGame.noSelection+ "</label> <br>");
 }
 	
-
-
-
-//check correct and incorrect answer and display it 
+});
